@@ -49,8 +49,9 @@ Finally, we averaged all variables by subject_id and activity, replacing old "xx
 
 ### Complete list 
 
-`subject_id`     Factor with 30 levels. Ex : "2","4","9","10"...        
+`subject_id`        Factor with 30 levels. Ex : "2","4","9","10"...        
 `activity`         Factor with 6 levels "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING"  "STANDING"  "LAYING"
+
 `tBodyAcc-mean@-X_overall_mean`                  
 `tBodyAcc-mean@-Y_overall_mean`                  
 `tBodyAcc-mean@-Z_overall_mean`                   
