@@ -1,11 +1,11 @@
 Getting_and_Cleaning
 Programming assignment of week 4
 
-This codebook summarizes content of the file "data_tidy".
+This codebook summarizes content of the file "data_tidy.csv".
 
 ## Presentation
 
-This object results from merging together the 2 sets ("test" set and "training" set) found in the original dataset ( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+"data_tidy.csv" results from merging together the 2 sets ("test" set and "training" set) found in the original dataset ( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 We also named columns according to the original dataset metadata.
 
@@ -29,25 +29,8 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
-
-We finally only kept variables that were estimated from these signals : 
+ 
+We finally only kept variables mean@ and std@, which were estimated from these signals : 
 
 mean@: Mean value
 std@: Standard deviation
