@@ -15,13 +15,4 @@ run_analysis.R : script to clean the original dataset. Running this script will 
 
 CodeBook.md : gives additional info on the included variables.
 
-
-
-
-
-
-
-
-
-
-The files are organized as follow : 
+data_tidy.csv : final output of run_analysis.R script
