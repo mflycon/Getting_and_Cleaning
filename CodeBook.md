@@ -1,11 +1,11 @@
 Getting_and_Cleaning
 Programming assignment of week 4
 
-This codebook summarizes content of the file "data_tidy.csv".
+This codebook summarizes content of the file "data_tidy.txt".
 
 ## Presentation
 
-"data_tidy.csv" results from merging together the 2 sets ("test" set and "training" set) found in the original dataset ( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+"data_tidy.txt" results from merging together the 2 sets ("test" set and "training" set) found in the original dataset ( https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
 
 We also named columns according to the original dataset metadata.
 

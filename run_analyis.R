@@ -63,7 +63,7 @@ data_tidy <- data_tidy[, .SD[1], by = c("subject_id", "activity")] # and I final
 
 
 # saving
-write.csv(data_tidy, file = "../data_tidy.csv", row.names = F) # in parent folder
+write.table(data_tidy, file = "../data_tidy.txt", row.names = F) # in parent folder
 
 
 
