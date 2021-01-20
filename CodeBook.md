@@ -49,92 +49,92 @@ Finally, we averaged all variables by subject_id and activity, replacing old "xx
 
 ### Complete list 
 
-`subject_id`        Factor with 30 levels. Ex : "2","4","9","10"...        
-`activity`         Factor with 6 levels "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING"  "STANDING"  "LAYING"
+* `subject_id`        Factor with 30 levels. Ex : "2","4","9","10"...        
+* `activity`         Factor with 6 levels "WALKING" "WALKING_UPSTAIRS" "WALKING_DOWNSTAIRS" "SITTING"  "STANDING"  "LAYING"
 
-`tBodyAcc-mean@-X_overall_mean`                  
-`tBodyAcc-mean@-Y_overall_mean`                  
-`tBodyAcc-mean@-Z_overall_mean`                   
-`tBodyAcc-std@-X_overall_mean`                   
-`tBodyAcc-std@-Y_overall_mean`         
-`tBodyAcc-std@-Z_overall_mean`            
-`tGravityAcc-mean@-X_overall_mean`                
-`tGravityAcc-mean@-Y_overall_mean`            
-`tGravityAcc-mean@-Z_overall_mean`          
-`tGravityAcc-std@-X_overall_mean`                
-`tGravityAcc-std@-Y_overall_mean`   
-`tGravityAcc-std@-Z_overall_mean`               
-`tBodyAccJerk-mean@-X_overall_mean`               
-`tBodyAccJerk-mean@-Y_overall_mean`   
-`tBodyAccJerk-mean@-Z_overall_mean`         
-`tBodyAccJerk-std@-X_overall_mean`               
-`tBodyAccJerk-std@-Y_overall_mean`    
-`tBodyAccJerk-std@-Z_overall_mean`
-`tBodyGyro-mean@-X_overall_mean`                
-`tBodyGyro-mean@-Y_overall_mean`     
-`tBodyGyro-mean@-Z_overall_mean`     
-`tBodyGyro-std@-X_overall_mean`                  
-`tBodyGyro-std@-Y_overall_mean`           
-`tBodyGyro-std@-Z_overall_mean`          
-`tBodyGyroJerk-mean@-X_overall_mean`              
-`tBodyGyroJerk-mean@-Y_overall_mean`  
-`tBodyGyroJerk-mean@-Z_overall_mean`      
-`tBodyGyroJerk-std@-X_overall_mean`               
-`tBodyGyroJerk-std@-Y_overall_mean`    
-`tBodyGyroJerk-std@-Z_overall_mean`        
-`tBodyAccMag-mean@_overall_mean`                  
-`tBodyAccMag-std@_overall_mean`      
-`tGravityAccMag-mean@_overall_mean`     
-`tGravityAccMag-std@_overall_mean`               
-`tBodyAccJerkMag-mean@_overall_mean`     
-`tBodyAccJerkMag-std@_overall_mean`     
-`tBodyGyroMag-mean@_overall_mean`               
-`tBodyGyroMag-std@_overall_mean`     
-`tBodyGyroJerkMag-mean@_overall_mean`    
-`tBodyGyroJerkMag-std@_overall_mean`              
-`fBodyAcc-mean@-X_overall_mean`       
-`fBodyAcc-mean@-Y_overall_mean`         
-`fBodyAcc-mean@-Z_overall_mean`                  
-`fBodyAcc-std@-X_overall_mean`      
-`fBodyAcc-std@-Y_overall_mean`        
-`fBodyAcc-std@-Z_overall_mean`                    
-`fBodyAcc-meanFreq@-X_overall_mean`    
-`fBodyAcc-meanFreq@-Y_overall_mean`     
-`fBodyAcc-meanFreq@-Z_overall_mean`               
-`fBodyAccJerk-mean@-X_overall_mean`       
-`fBodyAccJerk-mean@-Y_overall_mean`      
-`fBodyAccJerk-mean@-Z_overall_mean`                
-`fBodyAccJerk-std@-X_overall_mean`       
-`fBodyAccJerk-std@-Y_overall_mean`         
-`fBodyAccJerk-std@-Z_overall_mean`                
-`fBodyAccJerk-meanFreq@-X_overall_mean`        
-`fBodyAccJerk-meanFreq@-Y_overall_mean`      
-`fBodyAccJerk-meanFreq@-Z_overall_mean`           
-`fBodyGyro-mean@-X_overall_mean`        
-`fBodyGyro-mean@-Y_overall_mean`          
-`fBodyGyro-mean@-Z_overall_mean`                   
-`fBodyGyro-std@-X_overall_mean`          
-`fBodyGyro-std@-Y_overall_mean`          
-`fBodyGyro-std@-Z_overall_mean`                    
-`fBodyGyro-meanFreq@-X_overall_mean`     
-`fBodyGyro-meanFreq@-Y_overall_mean`   
-`fBodyGyro-meanFreq@-Z_overall_mean`               
-`fBodyAccMag-mean@_overall_mean`        
-`fBodyAccMag-std@_overall_mean`          
-`fBodyAccMag-meanFreq@_overall_mean`               
-`fBodyBodyAccJerkMag-mean@_overall_mean`    
-`fBodyBodyAccJerkMag-std@_overall_mean`     
-`fBodyBodyAccJerkMag-meanFreq@_overall_mean`       
-`fBodyBodyGyroMag-mean@_overall_mean`         
-`fBodyBodyGyroMag-std@_overall_mean`           
-`fBodyBodyGyroMag-meanFreq@_overall_mean`          
-`fBodyBodyGyroJerkMag-mean@_overall_mean`   
-`fBodyBodyGyroJerkMag-std@_overall_mean`     
-`fBodyBodyGyroJerkMag-meanFreq@_overall_mean`    
-`angle(tBodyAccMean,gravity)_overall_mean`     
-`angle(tBodyAccJerkMean),gravityMean)_overall_mean`
-`angle(tBodyGyroMean,gravityMean)_overall_mean`    
-`angle(tBodyGyroJerkMean,gravityMean)_overall_mean`
-`angle(X,gravityMean)_overall_mean`                
-`angle(Y,gravityMean)_overall_mean`                
-`angle(Z,gravityMean)_overall_mean` 
+* `tBodyAcc-mean@-X_overall_mean`                  
+* `tBodyAcc-mean@-Y_overall_mean`                  
+* `tBodyAcc-mean@-Z_overall_mean`                   
+* `tBodyAcc-std@-X_overall_mean`                   
+* `tBodyAcc-std@-Y_overall_mean`         
+* `tBodyAcc-std@-Z_overall_mean`            
+* `tGravityAcc-mean@-X_overall_mean`                
+* `tGravityAcc-mean@-Y_overall_mean`            
+* `tGravityAcc-mean@-Z_overall_mean`          
+* `tGravityAcc-std@-X_overall_mean`                
+* `tGravityAcc-std@-Y_overall_mean`   
+* `tGravityAcc-std@-Z_overall_mean`               
+* `tBodyAccJerk-mean@-X_overall_mean`               
+* `tBodyAccJerk-mean@-Y_overall_mean`   
+* `tBodyAccJerk-mean@-Z_overall_mean`         
+* `tBodyAccJerk-std@-X_overall_mean`               
+* `tBodyAccJerk-std@-Y_overall_mean`    
+* `tBodyAccJerk-std@-Z_overall_mean`
+* `tBodyGyro-mean@-X_overall_mean`                
+* `tBodyGyro-mean@-Y_overall_mean`     
+* `tBodyGyro-mean@-Z_overall_mean`     
+* `tBodyGyro-std@-X_overall_mean`                  
+* `tBodyGyro-std@-Y_overall_mean`           
+* `tBodyGyro-std@-Z_overall_mean`          
+* `tBodyGyroJerk-mean@-X_overall_mean`              
+* `tBodyGyroJerk-mean@-Y_overall_mean`  
+* `tBodyGyroJerk-mean@-Z_overall_mean`      
+* `tBodyGyroJerk-std@-X_overall_mean`               
+* `tBodyGyroJerk-std@-Y_overall_mean`    
+* `tBodyGyroJerk-std@-Z_overall_mean`        
+* `tBodyAccMag-mean@_overall_mean`                  
+* `tBodyAccMag-std@_overall_mean`      
+* `tGravityAccMag-mean@_overall_mean`     
+* `tGravityAccMag-std@_overall_mean`               
+* `tBodyAccJerkMag-mean@_overall_mean`     
+* `tBodyAccJerkMag-std@_overall_mean`     
+* `tBodyGyroMag-mean@_overall_mean`               
+* `tBodyGyroMag-std@_overall_mean`     
+* `tBodyGyroJerkMag-mean@_overall_mean`    
+* `tBodyGyroJerkMag-std@_overall_mean`              
+* `fBodyAcc-mean@-X_overall_mean`       
+* `fBodyAcc-mean@-Y_overall_mean`         
+* `fBodyAcc-mean@-Z_overall_mean`                  
+* `fBodyAcc-std@-X_overall_mean`      
+* `fBodyAcc-std@-Y_overall_mean`        
+* `fBodyAcc-std@-Z_overall_mean`                    
+* `fBodyAcc-meanFreq@-X_overall_mean`    
+* `fBodyAcc-meanFreq@-Y_overall_mean`     
+* `fBodyAcc-meanFreq@-Z_overall_mean`               
+* `fBodyAccJerk-mean@-X_overall_mean`       
+* `fBodyAccJerk-mean@-Y_overall_mean`      
+* `fBodyAccJerk-mean@-Z_overall_mean`                
+* `fBodyAccJerk-std@-X_overall_mean`       
+* `fBodyAccJerk-std@-Y_overall_mean`         
+* `fBodyAccJerk-std@-Z_overall_mean`                
+* `fBodyAccJerk-meanFreq@-X_overall_mean`        
+* `fBodyAccJerk-meanFreq@-Y_overall_mean`      
+* `fBodyAccJerk-meanFreq@-Z_overall_mean`           
+* `fBodyGyro-mean@-X_overall_mean`        
+* `fBodyGyro-mean@-Y_overall_mean`          
+* `fBodyGyro-mean@-Z_overall_mean`                   
+* `fBodyGyro-std@-X_overall_mean`          
+* `fBodyGyro-std@-Y_overall_mean`          
+* `fBodyGyro-std@-Z_overall_mean`                    
+* `fBodyGyro-meanFreq@-X_overall_mean`     
+* `fBodyGyro-meanFreq@-Y_overall_mean`   
+* `fBodyGyro-meanFreq@-Z_overall_mean`               
+* `fBodyAccMag-mean@_overall_mean`        
+* `fBodyAccMag-std@_overall_mean`          
+* `fBodyAccMag-meanFreq@_overall_mean`               
+* `fBodyBodyAccJerkMag-mean@_overall_mean`    
+* `fBodyBodyAccJerkMag-std@_overall_mean`     
+* `fBodyBodyAccJerkMag-meanFreq@_overall_mean`       
+* `fBodyBodyGyroMag-mean@_overall_mean`         
+* `fBodyBodyGyroMag-std@_overall_mean`           
+* `fBodyBodyGyroMag-meanFreq@_overall_mean`          
+* `fBodyBodyGyroJerkMag-mean@_overall_mean`   
+* `fBodyBodyGyroJerkMag-std@_overall_mean`     
+* `fBodyBodyGyroJerkMag-meanFreq@_overall_mean`    
+* `angle(tBodyAccMean,gravity)_overall_mean`     
+* `angle(tBodyAccJerkMean),gravityMean)_overall_mean`
+* `angle(tBodyGyroMean,gravityMean)_overall_mean`    
+* `angle(tBodyGyroJerkMean,gravityMean)_overall_mean`
+* `angle(X,gravityMean)_overall_mean`                
+* `angle(Y,gravityMean)_overall_mean`                
+* `angle(Z,gravityMean)_overall_mean` 
