@@ -29,13 +29,9 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
- 
-We finally only kept variables mean@ and std@, which were estimated from these signals : 
+We finally only kept variables mean@ and std@, which were estimated from these signals.
 
-mean@: Mean value
-std@: Standard deviation
-
-A few additional vectors obtained by averaging the signals, used on the angle() variable, were also kept :
+A few additional vectors obtained by averaging the signals, used on the angle() variable. See :
 
 gravityMean
 tBodyAccMean
