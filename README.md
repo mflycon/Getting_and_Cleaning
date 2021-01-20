@@ -9,10 +9,10 @@ Briefly : Experiments have been carried out with a group of 30 volunteers within
 
 # Included files
 
-run_analysis.R : script to clean the original dataset. Running this script will create two objects : 
-- Row data is divided between two sets, that we merged together. We only kept, for each recording events, the columns expressing mean and standard deviation of the other measurements. This the object "data"
-- We subsequently averaged all these mean or std measurements, to only keep one row by subject id and activity. This is object "data_tidy"
+run_analysis.R : script to clean the original dataset. Running this script will create two R objects : 
+- "data" : Row data is divided between two sets, that we merged together. We only kept, for each recording events, the columns expressing mean and standard deviation of the other measurements. This the object "data".
+- "data_tidy" : We subsequently averaged all these means or std measurements, to only keep one row by subject id and activity. This is the object "data_tidy".
 
 CodeBook.md : gives additional info on the included variables.
 
-data_tidy.csv : final output of run_analysis.R script
+data_tidy.csv : final output of run_analysis.R script (object "data_tidy" saved as .csv)
