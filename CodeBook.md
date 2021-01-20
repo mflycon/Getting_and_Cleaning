@@ -70,9 +70,9 @@ Finally, we averaged all variables by subject_id and activity, replacing old "xx
 `tBodyAccJerk-std@-X_overall_mean`               
 `tBodyAccJerk-std@-Y_overall_mean`    
 `tBodyAccJerk-std@-Z_overall_mean`
-`tBodyGyro-mean@-X_overall_mean`                  
-`tBodyGyro-mean@-Y_overall_mean`      
-`tBodyGyro-mean@-Z_overall_mean`       
+`tBodyGyro-mean@-X_overall_mean`                
+`tBodyGyro-mean@-Y_overall_mean`     
+`tBodyGyro-mean@-Z_overall_mean`     
 `tBodyGyro-std@-X_overall_mean`                  
 `tBodyGyro-std@-Y_overall_mean`           
 `tBodyGyro-std@-Z_overall_mean`          
